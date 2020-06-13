@@ -12,8 +12,7 @@ const sessionConfig = {
   secret: "sssh secret",
   cookie: {
     maxAge: 1000 * 60 * 60,
-    //maxAge:1000*20,
-    secure: false, //do true in production
+    secure: false,
     httpOnly: true,
   },
   resave: false,
